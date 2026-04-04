@@ -68,6 +68,7 @@ Gradient-weighted Class Activation Mapping
 --
 - This is REQUIRED for Grad-CAM.
 <img width="374" height="260" alt="image" src="https://github.com/user-attachments/assets/b5d8e72b-01ba-46fa-94a8-0738a9874c14" />
+
 - Choose the last Conv2D layer, for example:
 <img width="512" height="76" alt="image" src="https://github.com/user-attachments/assets/e722685a-7bd4-4a8f-b2a1-fe2c9ecf490c" />
 
@@ -77,10 +78,19 @@ Gradient-weighted Class Activation Mapping
 
 **PART 5: Generate Heatmap**
 --
+<img width="463" height="449" alt="image" src="https://github.com/user-attachments/assets/0ec29931-45f5-42a0-9c9f-dd166137ef71" />
 
 
 
+**PART 6: Superimpose Heatmap on Original Image**
+--
+<img width="578" height="196" alt="image" src="https://github.com/user-attachments/assets/33203894-099d-47e5-ae92-b5e3ed39b8fc" />
+<img width="373" height="346" alt="image" src="https://github.com/user-attachments/assets/cdd28735-d8f1-47db-8b84-587e00b91117" />
 
+**PART 7: Interpret the Results**
+--
+
+<img width="708" height="199" alt="image" src="https://github.com/user-attachments/assets/8e1a3488-ae8e-4abb-88d2-e134ea550349" />
 
 
 
