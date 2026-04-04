@@ -1,3 +1,6 @@
+**Activity 1: Evaluation Metrics + Visualization**
+
+
 **PART 1: Load Your Saved Model**
 --
 <img width="531" height="87" alt="image" src="https://github.com/user-attachments/assets/f19395d5-8ce9-4ddb-8dba-0dcf189178c5" />
@@ -42,3 +45,26 @@ Area Under the Curve (AUC) Score**
   <img src="https://github.com/user-attachments/assets/148a4e0c-0e66-4ef1-9ae5-d41f77fcfe67" height="220">
   <img src="https://github.com/user-attachments/assets/588b15e2-a176-4615-8851-78f04e34a948" height="220">
 </div>
+
+
+--
+
+**Activity 2: Model Interpretability using
+Gradient-weighted Class Activation Mapping
+(Grad-CAM)**
+
+--
+
+**PART 1: Load the Saved Model**
+--
+
+
+
+
+
+
+
+
+
+
+
