@@ -57,6 +57,26 @@ Gradient-weighted Class Activation Mapping
 
 **PART 1: Load the Saved Model**
 --
+<img width="534" height="98" alt="image" src="https://github.com/user-attachments/assets/f7aed207-e801-4500-bded-8ae9e1f10426" />
+<img width="523" height="457" alt="image" src="https://github.com/user-attachments/assets/1e18ac48-9adf-4083-a5a0-3d9e42113435" />
+
+**PART 2: Load and Preprocess Test Image**
+--
+<img width="562" height="158" alt="image" src="https://github.com/user-attachments/assets/cce6f0d2-e188-40f0-a276-a692f7cea14e" />
+
+**PART 3: Identify Last Convolutional Layer**
+--
+- This is REQUIRED for Grad-CAM.
+<img width="374" height="260" alt="image" src="https://github.com/user-attachments/assets/b5d8e72b-01ba-46fa-94a8-0738a9874c14" />
+- Choose the last Conv2D layer, for example:
+<img width="512" height="76" alt="image" src="https://github.com/user-attachments/assets/e722685a-7bd4-4a8f-b2a1-fe2c9ecf490c" />
+
+**PART 4: Build Grad-CAM Function**
+--
+<img width="580" height="446" alt="image" src="https://github.com/user-attachments/assets/f4f95fd2-f05b-4cc6-bfc0-145e6a10dbee" />
+
+**PART 5: Generate Heatmap**
+--
 
 
 
