@@ -93,6 +93,50 @@ Gradient-weighted Class Activation Mapping
 <img width="708" height="199" alt="image" src="https://github.com/user-attachments/assets/8e1a3488-ae8e-4abb-88d2-e134ea550349" />
 
 
+**Activity 3: Model Enhancement and
+Performance Optimization**
+--
+
+**PART 1: Review Results from Activity 4**
+--
+- Students must analyze: Confusion Matrix, Classification Report, ROC Curve / AUC Score
+- Identify: Misclassified classes, Class imbalance, Overfitting signs
+
+**PART 2: Apply Model Enhancements**
+
+**Enhancement 1: Data Augmentation (Improved Version)**
+--
+<img width="412" height="172" alt="image" src="https://github.com/user-attachments/assets/a2648a33-4f8e-43ee-bb44-c7008e06e601" />
+
+**Enhancement 2: Improved CNN Architecture**
+--
+<img width="1197" height="395" alt="image" src="https://github.com/user-attachments/assets/97e7aad1-58b0-4672-a579-8f3e47dcee6f" />
+
+**Enhancement 3: Learning Rate Optimization**
+--
+<img width="540" height="149" alt="image" src="https://github.com/user-attachments/assets/b0d477a2-e190-4725-b782-0a3c880fb600" />
+
+
+
+**Enhancement 4: Early Stopping (Prevent Overfitting)**
+--
+<img width="428" height="135" alt="image" src="https://github.com/user-attachments/assets/4ec2a9c8-5556-4b1d-94f2-95d0656d2ee2" />
+
+
+**Enhancement 5: Train Improved Model**
+--
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
