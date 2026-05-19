@@ -369,11 +369,48 @@ Gradient-weighted Class Activation Mapping
 Performance Optimization |**
 
 **PART 1: Review Results from Activity 4**
+--
+<img width="357" height="235" alt="image" src="https://github.com/user-attachments/assets/23404e4d-8579-401d-b081-f85d3eeba8e5" />
+<img width="405" height="428" alt="image" src="https://github.com/user-attachments/assets/a59b1ea6-fe84-4be1-b67d-e8194b6bb480" />
+<img width="379" height="287" alt="image" src="https://github.com/user-attachments/assets/a41eeb3f-e7ab-402c-a347-94efef19c61c" />
+<img width="240" height="205" alt="image" src="https://github.com/user-attachments/assets/051b4b3d-945f-4a9c-849e-3a98f6df7cc5" />
+
+- The model shows excellent overall performance (AUC 0.9698, 86% precision/recall) with good generalization (no overfitting). However, there are targeted weaknesses in root vegetable discrimination, particularly Burdock-Root-samples, likely due to feature similarity rather than overfitting or insufficient data. The model successfully learned to classify 14+ classes very well, but struggles with visually similar vegetables that require more distinctive feature learning.
 
 
 
+**PART 2: Apply Model Enhancements**
+--
 
+**Enhancement 1: Data Augmentation (Improved Version)**
+--
 
+<img width="279" height="126" alt="image" src="https://github.com/user-attachments/assets/4317820c-a126-43c0-8697-980a07222d2c" />
+
+**Enhancement 2: Improved CNN Architecture**
+--
+
+<img width="382" height="349" alt="image" src="https://github.com/user-attachments/assets/141b1c4a-19f0-4847-98bb-f87f5644a4b1" />
+
+**Enhancement 3: Learning Rate Optimization**
+--
+
+<img width="452" height="96" alt="image" src="https://github.com/user-attachments/assets/1b05ac8d-7301-4fe6-b111-e1044b9bde35" />
+
+**Enhancement 4: Early Stopping (Prevent Overfitting)**
+--
+
+<img width="355" height="119" alt="image" src="https://github.com/user-attachments/assets/908663c9-89e1-4780-898f-b312cc86694d" />
+
+**Enhancement 5: Train Improved Model**
+--
+
+<img width="705" height="518" alt="image" src="https://github.com/user-attachments/assets/eb87f299-4898-4e88-b692-eaa362f461f1" />
+
+**PART 3: Re-evaluate the Improved Model**
+--
+
+<img width="426" height="453" alt="image" src="https://github.com/user-attachments/assets/0141aa6d-2b11-488e-949b-371f67056cf1" />
 
 
 
