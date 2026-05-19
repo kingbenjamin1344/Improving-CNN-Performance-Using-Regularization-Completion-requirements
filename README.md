@@ -267,3 +267,116 @@ Evidence - YES:
 - Model debugging: Identifies whether improvements come from learning better features or exploiting dataset artifacts
 - Bias detection: Can expose if model relies on irrelevant visual patterns
 
+
+
+
+
+**REVISED**
+--
+
+**Activity 1: Evaluation Metrics + Visualization**
+
+
+**PART 1: Load Your Saved Model**
+--
+
+<img width="779" height="102" alt="image" src="https://github.com/user-attachments/assets/65f6aaab-ccfb-46ed-a195-fccd9125496f" />
+
+**PART 2: Get True Labels and Predictions**
+--
+
+<img width="314" height="197" alt="image" src="https://github.com/user-attachments/assets/ec7d4ecd-80a9-4065-b987-c81b7f7f76dc" />
+<img width="239" height="345" alt="image" src="https://github.com/user-attachments/assets/77c2bc6a-86bc-4eb8-adaa-a7554c09b0bf" />
+
+**PART 3: Precision, Recall, F1-Score**
+--
+
+<img width="441" height="449" alt="image" src="https://github.com/user-attachments/assets/debf11b5-892e-4e82-8cd5-b89110c34425" />
+
+**PART 4: Confusion Matrix**
+--
+
+<img width="402" height="372" alt="image" src="https://github.com/user-attachments/assets/8dbadd40-8af2-4974-9093-d62d6050cb03" />
+<img width="689" height="526" alt="image" src="https://github.com/user-attachments/assets/b51d2d2d-7d51-4773-893d-2e12c1e235b7" />
+
+
+**PART 5: Receiver Operating Characteristic (ROC) Curve and
+Area Under the Curve (AUC) Score**
+--
+
+<img width="409" height="214" alt="image" src="https://github.com/user-attachments/assets/ca843948-2540-43fb-a101-48cb230270a3" />
+
+**PART 6: Plot ROC Curve**
+--
+
+<img width="642" height="529" alt="image" src="https://github.com/user-attachments/assets/44f6fbd7-f7fb-4bad-8208-f9a1f970f157" />
+
+**PART 7: AUC Score (Overall)**
+--
+
+<img width="410" height="88" alt="image" src="https://github.com/user-attachments/assets/0a3328a4-3fc0-458a-a46a-50d9d6989255" />
+
+**PART 8: Precision, Recall, F1 Visualization**
+--
+
+<img width="408" height="205" alt="image" src="https://github.com/user-attachments/assets/de87e153-ed80-4c7d-b3af-7d60264df9cc" />
+<img width="903" height="451" alt="image" src="https://github.com/user-attachments/assets/e3543f0f-90ad-4dc6-b12b-ea4e895121ae" />
+
+
+**Activity 2: Model Interpretability using
+Gradient-weighted Class Activation Mapping
+(Grad-CAM) -**
+
+
+**PART 1: Load the Saved Model**
+--
+
+<img width="495" height="517" alt="image" src="https://github.com/user-attachments/assets/0b24d48e-2aff-4d9a-b045-fd3b7e0e21e9" />
+
+**PART 2: Load and Preprocess Test Image**
+--
+
+<img width="518" height="120" alt="image" src="https://github.com/user-attachments/assets/d580fae3-c425-46ed-97fb-f5d0a5dcd346" />
+
+
+**PART 3: Identify Last Convolutional Layer**
+--
+
+<img width="445" height="269" alt="image" src="https://github.com/user-attachments/assets/5b6304d9-ed99-4fe1-b4ab-ecb6604ba0ee" />
+
+**PART 4: Build Grad-CAM Function**
+--
+
+<img width="569" height="499" alt="image" src="https://github.com/user-attachments/assets/9a19c8e4-b904-493f-8b07-3bdf0644ada4" />
+
+**PART 5: Generate Heatmap**
+--
+
+<img width="436" height="419" alt="image" src="https://github.com/user-attachments/assets/7891ca7b-2040-4689-92e3-da382f1da293" />
+
+**PART 6: Superimpose Heatmap on Original Image**
+--
+
+<img width="484" height="511" alt="image" src="https://github.com/user-attachments/assets/fdd61ce8-0d21-4780-ae7f-201bbb82b746" />
+
+
+**PART 7: Interpret the Results**
+--
+
+<img width="474" height="222" alt="image" src="https://github.com/user-attachments/assets/25cfc522-e44d-410c-aa1a-c65fc2b239b0" />
+
+**Activity 3: Model Enhancement and
+Performance Optimization |**
+
+**PART 1: Review Results from Activity 4**
+
+
+
+
+
+
+
+
+
+
+
