@@ -416,8 +416,21 @@ Performance Optimization |**
 <img width="431" height="81" alt="image" src="https://github.com/user-attachments/assets/56bfb752-ea79-486d-b9bb-e799661dd98b" />
 <img width="916" height="459" alt="image" src="https://github.com/user-attachments/assets/b7f1d85c-d0d9-47d7-a7db-b9210f314b01" />
 
+**PART 4: Compare Results (Before vs After)**
+--
+
+<img width="438" height="383" alt="image" src="https://github.com/user-attachments/assets/77b5ccee-d052-4305-b6f4-bed846d9cce8" />
 
 
+
+**PART 5: Visualization of Improvement**
+--
+
+<img width="742" height="352" alt="image" src="https://github.com/user-attachments/assets/4068dae9-8fe1-405d-a9f2-21c82aa94d92" />
+
+
+**GUIDE QUESTIONS (Student Explanation & Reflection)**
+--
 
 
 
