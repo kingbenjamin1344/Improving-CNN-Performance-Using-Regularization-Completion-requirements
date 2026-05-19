@@ -410,7 +410,13 @@ Performance Optimization |**
 **PART 3: Re-evaluate the Improved Model**
 --
 
-<img width="426" height="453" alt="image" src="https://github.com/user-attachments/assets/0141aa6d-2b11-488e-949b-371f67056cf1" />
+<img width="431" height="387" alt="image" src="https://github.com/user-attachments/assets/e5af99f5-4ed6-43e1-8b96-a02b1705239f" />
+<img width="688" height="507" alt="image" src="https://github.com/user-attachments/assets/e3f6c23a-7b12-4f18-b57f-f882cbc12ebc" />
+<img width="646" height="511" alt="image" src="https://github.com/user-attachments/assets/2a838762-cffb-4bbc-997e-6c64060d6fef" />
+<img width="431" height="81" alt="image" src="https://github.com/user-attachments/assets/56bfb752-ea79-486d-b9bb-e799661dd98b" />
+<img width="916" height="459" alt="image" src="https://github.com/user-attachments/assets/b7f1d85c-d0d9-47d7-a7db-b9210f314b01" />
+
+
 
 
 
