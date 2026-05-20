@@ -431,6 +431,131 @@ Performance Optimization |**
 
 **GUIDE QUESTIONS (Student Explanation & Reflection)**
 --
+Model Evaluation and Improvement Report
+A. Model Evaluation Analysis
+1. Weakest Performing Classes
+
+The model performed poorly on the following classes:
+
+Arrow-Root-samples – 34% accuracy (highest misclassification rate)
+Artichoke-samples – 51% accuracy (frequent confusion with other classes)
+Carrot-samples – 68% accuracy (moderate performance)
+
+These errors are reflected in the confusion matrix through high off-diagonal values, showing incorrect predictions.
+
+2. Precision, Recall, and F1-Score
+Best performing classes: Chicory-Root, Lotus-Root, Scorzonera
+(Precision/Recall: 0.96–1.00)
+Worst performing class: Arrow-Root
+(Precision: 0.81, Recall: 0.62)
+
+Recall varies more than precision, indicating inconsistency in correctly identifying all true samples.
+
+3. What Low Recall Indicates
+
+Low recall means the model is missing actual positive cases.
+
+Example:
+
+Arrow-Root recall = 0.62 → about 38% of real samples were misclassified.
+
+This is critical in real-world applications where missing detections can lead to serious errors.
+
+4. AUC vs Accuracy
+Accuracy: ~0.86
+AUC Score: 0.9524
+
+AUC is a better metric because it evaluates performance across all thresholds and handles class imbalance better than accuracy.
+
+B. Model Improvement
+1. Data Augmentation Effects
+Validation accuracy improved from 0.0711 to 0.8687
+Reduced overfitting significantly
+Increased dataset variety (rotations, flips, transformations)
+Stabilized training after early fluctuations
+2. Batch Normalization
+Stabilized training process
+Reduced internal covariate shift
+Improved convergence speed
+Helped maintain stable validation performance
+3. Dropout Role
+Reduced overfitting by randomly disabling neurons
+Forced the model to learn more general features
+Improved performance on unseen data
+4. Early Stopping
+Training stopped when validation loss stopped improving
+Prevented overfitting in later epochs (around Epoch 13–20)
+Avoided unnecessary training on noisy patterns
+C. Performance Comparison
+1. Improvements After Model Modification
+
+After applying regularization techniques, the model became more stable and generalized better.
+
+Key improvements:
+
+Better validation performance
+Reduced overfitting
+More balanced predictions across classes
+2. Which Enhancement Contributed Most
+
+The most effective improvements came from:
+
+Dropout
+Batch Normalization
+
+Evidence:
+
+Higher recall and precision values
+Improved confusion matrix diagonal values
+Better validation performance even with lower training accuracy
+3. Training vs Validation Gap
+Before: small gap (possible underfitting or balanced performance)
+After: validation accuracy higher than training accuracy
+
+This indicates reduced overfitting and improved generalization.
+
+D. Explainability (Grad-CAM Integration)
+1. How Grad-CAM Helped Understanding
+
+Grad-CAM shows which image regions influenced the model’s decisions.
+
+It helped identify:
+
+Why Arrow-Root was misclassified
+Whether the model focused on root features or background noise
+2. Did the Model Focus on Relevant Regions?
+
+Yes. The improved model focused more on:
+
+Root shape
+Texture patterns
+Key discriminative features
+
+Evidence includes improved recall and better confusion matrix results.
+
+3. Why Explainability Matters
+
+Explainability is important because it:
+
+Builds trust in predictions
+Helps debug model errors
+Detects bias or wrong feature learning
+Supports real-world agricultural applications
+
+
+
+
+
+
+
+
+
+
+
+
+**Google Collab Link**
+https://colab.research.google.com/drive/13dp-Q1h34tcE7QBO0tECZTjH6MGK7rfr?usp=chrome_ntp#scrollTo=hKe1kw00b0EE
+
 
 
 
